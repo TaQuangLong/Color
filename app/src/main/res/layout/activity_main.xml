@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="project.quanglong.color_exercise3_3.MainActivity">
+
+    <TableRow>
+
+        <Button
+            android:id="@+id/btn1"
+            android:layout_height="wrap_content"
+            android:text="Color 1"
+            android:layout_weight="1"
+            android:textColor="#ff4400"
+            android:layout_width="wrap_content" />
+
+        <Button
+            android:id="@+id/btn2"
+            android:layout_height="wrap_content"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:text="Color 2"
+            android:textColor="#fff201"
+            />
+
+        <Button
+            android:id="@+id/btn3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5"
+            android:text="Color 3"
+            android:textColor="#0040ff" />
+
+    </TableRow>
+
+    <TextView
+        android:id="@+id/tvRow2"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="#f4fc0f"/>
+
+    <Button
+        android:id="@+id/btn4"
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Clear"
+        android:layout_marginLeft="180dp"
+        android:layout_marginRight="10dp"/>
+
+</TableLayout>
